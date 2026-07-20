@@ -186,6 +186,49 @@ sudo kubeadm upgrade plan
 sudo kubeadm upgrade apply <version>
 ```
 
+## kubeadm One Control Plane and One Worker
+
+### Run on both nodes
+```bash
+sudo swapoff -a
+sudo modprobe overlay
+sudo modprobe br_netfilter
+sudo sysctl -w net.bridge.bridge-nf-call-iptables=1
+sudo sysctl -w net.bridge.bridge-nf-call-ip6tables=1
+sudo sysctl -w net.ipv4.ip_forward=1
+sudo systemctl enable --now containerd
+sudo systemctl enable --now kubelet
+```
+
+### Run on the control plane node
+```bash
+sudo kubeadm init --pod-network-cidr=10.244.0.0/16
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
+kubeadm token create --print-join-command
+```
+
+### Run on the worker node
+```bash
+sudo kubeadm join <control-plane-ip>:6443 --token <token> --discovery-token-ca-cert-hash sha256:<hash>
+```
+
+### Verify from the control plane node
+```bash
+kubectl get nodes
+kubectl get pods -A
+kubectl describe node <worker-node>
+```
+
+### Reset a node
+```bash
+sudo kubeadm reset
+sudo rm -rf /etc/cni/net.d
+sudo rm -rf $HOME/.kube
+```
+
 ## Troubleshooting
 ```bash
 kubectl get events -A --sort-by=.metadata.creationTimestamp
