@@ -7,12 +7,16 @@ A collection of short command-line quick references for common developer and inf
 | Guide | Covers |
 | --- | --- |
 | [AWS CLI, CDK, and kubectl](aws_cdk_kubectl_quick_reference.md) | AWS profiles, S3, EC2, IAM, CloudFormation, ECR, CDK, basic kubectl, Kustomize, and ArgoCD commands. |
+| [CKA and CKAD Exam Speed Sheet](cka_ckad_exam_speed_sheet.md) | Exam aliases, Vim setup, context switching, YAML generation, `kubectl explain`, rollouts, services, RBAC, cleanup, and time management. |
 | [Cloud Networking](cloud_networking_quick_reference.md) | DNS, TLS, HTTP checks, Linux network debugging, AWS VPC, load balancing, Route 53, and Kubernetes networking. |
 | [Database Ops](database_ops_quick_reference.md) | PostgreSQL, MySQL, backups, restores, slow queries, locks, Kubernetes database access, AWS RDS, and common triage. |
 | [Docker and Docker Compose](docker_dockercompose_quick_reference.md) | Images, containers, logs, exec, networks, volumes, Compose lifecycle, rebuilds, validation, and cleanup commands. |
 | [GitHub Actions and GitLab CI](github_gitlab_ci_quick_reference.md) | GitHub Actions CLI, workflow syntax, permissions, matrix jobs, caches, artifacts, GitLab CI rules, and CI debugging. |
 | [Helm](helm_quick_reference.md) | Repositories, installs, upgrades, releases, charts, templates, values, debugging, and OCI registries. |
+| [kubectl Imperative](kubectl_imperative_quick_reference.md) | Dry-run YAML generation, pods, deployments, services, ConfigMaps, Secrets, Jobs, labels, annotations, namespaces, and fast edit flows. |
 | [Kubernetes](kubernetes_quick_reference.md) | kubectl contexts, namespaces, workloads, logs, rollouts, networking, config, storage, RBAC, Helm, kubeadm, and troubleshooting. |
+| [Kubernetes Manifests](kubernetes_manifests_quick_reference.md) | YAML examples for Pods, Deployments, Services, ConfigMaps, Secrets, probes, resources, volumes, PVCs, Jobs, CronJobs, and Ingress. |
+| [Kubernetes Troubleshooting](kubernetes_troubleshooting_quick_reference.md) | First-look commands, pod states, rollouts, services, DNS, nodes, cluster components, kubeadm host checks, storage, and NetworkPolicy. |
 | [Linux Command Line](linux_commands_quick_reference.md) | System info, files, search, disk and memory, networking, permissions, processes, packages, archives, SSH, systemd, and shortcuts. |
 | [Minikube CKA Practice](minikube_cka_quick_reference.md) | Minikube install, two-node CKA practice cluster setup, addons, node access, service access, practice tasks, and rebuild commands. |
 | [Observability](observability_quick_reference.md) | Prometheus, PromQL, Grafana, Loki, OpenTelemetry, SLO checks, alerts, and Kubernetes troubleshooting views. |
@@ -28,6 +32,10 @@ AWS and CDK work            -> aws_cdk_kubectl_quick_reference.md
 Infrastructure as code      -> terraform_opentofu_quick_reference.md
 CI/CD pipelines             -> github_gitlab_ci_quick_reference.md
 Kubernetes administration   -> kubernetes_quick_reference.md
+Exam speed and aliases      -> cka_ckad_exam_speed_sheet.md
+Fast kubectl generation     -> kubectl_imperative_quick_reference.md
+Kubernetes YAML examples    -> kubernetes_manifests_quick_reference.md
+Kubernetes troubleshooting  -> kubernetes_troubleshooting_quick_reference.md
 Kubernetes packaging        -> helm_quick_reference.md
 CKA local practice          -> minikube_cka_quick_reference.md
 Observability and alerts    -> observability_quick_reference.md
