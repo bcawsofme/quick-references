@@ -28,6 +28,7 @@ A collection of short command-line quick references and study guides for common 
 | [CKA and CKAD Exam Speed Sheet](cka_ckad_exam_speed_sheet.md) | Exam aliases, Vim setup, context switching, YAML generation, `kubectl explain`, rollouts, services, RBAC, cleanup, and time management. |
 | [Kubernetes Definitions Study Sheet](kubernetes_definitions_study_sheet.md) | Diagram-backed study tables for control plane, node components, workloads, networking, storage, security, scheduling, probes, Helm, Kustomize, CRDs, and operators. |
 | [Minikube CKA Practice](minikube_cka_quick_reference.md) | Local two-node Minikube practice setup for CKA/CKAD labs, addons, node access, service access, and rebuild commands. |
+| [strace Study Sheet](strace_study_sheet.md) | System call tracing concepts, common options, file and network errors, hung process triage, Kubernetes/container usage, output reading, and safety notes. |
 
 ## Suggested Starting Points
 
@@ -48,6 +49,7 @@ CKA local practice          -> minikube_cka_quick_reference.md
 Observability and alerts    -> observability_quick_reference.md
 Cloud connectivity          -> cloud_networking_quick_reference.md
 Database operations         -> database_ops_quick_reference.md
+System call debugging       -> strace_study_sheet.md
 Terminal editing            -> vim_commands_quick_reference.md
 ```
 
