@@ -15,7 +15,7 @@ A collection of short command-line quick references for common developer and inf
 | [Helm](helm_quick_reference.md) | Repositories, installs, upgrades, releases, charts, templates, values, debugging, and OCI registries. |
 | [kubectl Imperative](kubectl_imperative_quick_reference.md) | Dry-run YAML generation, pods, deployments, services, ConfigMaps, Secrets, Jobs, labels, annotations, namespaces, and fast edit flows. |
 | [Kubernetes](kubernetes_quick_reference.md) | kubectl contexts, namespaces, workloads, logs, rollouts, networking, config, storage, RBAC, Helm, kubeadm, and troubleshooting. |
-| [Kubernetes Definitions Study Sheet](kubernetes_definitions_study_sheet.md) | Plain-English definitions for control plane, node components, workloads, networking, storage, security, scheduling, probes, Helm, Kustomize, CRDs, and operators. |
+| [Kubernetes Definitions Study Sheet](kubernetes_definitions_study_sheet.md) | Diagram-backed study tables for control plane, node components, workloads, networking, storage, security, scheduling, probes, Helm, Kustomize, CRDs, and operators. |
 | [Kubernetes Manifests](kubernetes_manifests_quick_reference.md) | YAML examples for Pods, Deployments, Services, ConfigMaps, Secrets, probes, resources, volumes, PVCs, Jobs, CronJobs, and Ingress. |
 | [Kubernetes Troubleshooting](kubernetes_troubleshooting_quick_reference.md) | First-look commands, pod states, rollouts, services, DNS, nodes, cluster components, kubeadm host checks, storage, and NetworkPolicy. |
 | [Linux Command Line](linux_commands_quick_reference.md) | System info, files, search, disk and memory, networking, permissions, processes, packages, archives, SSH, systemd, and shortcuts. |
