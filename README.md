@@ -27,6 +27,7 @@ A collection of short command-line quick references and study guides for common 
 | --- | --- |
 | [CKA and CKAD Exam Speed Sheet](cka_ckad_exam_speed_sheet.md) | Exam aliases, Vim setup, context switching, YAML generation, `kubectl explain`, rollouts, services, RBAC, cleanup, and time management. |
 | [Kubernetes Definitions Study Sheet](kubernetes_definitions_study_sheet.md) | Diagram-backed study tables for control plane, node components, workloads, networking, storage, security, scheduling, probes, Helm, Kustomize, CRDs, and operators. |
+| [Kubernetes Deployment Strategies Study Guide](kubernetes_deployment_strategies_study_guide.md) | Rolling update, recreate, blue/green, canary, A/B, shadow traffic, StatefulSet and DaemonSet updates, with YAML examples and practice scenarios. |
 | [Minikube CKA Practice](minikube_cka_quick_reference.md) | Local two-node Minikube practice setup for CKA/CKAD labs, addons, node access, service access, and rebuild commands. |
 | [strace Study Sheet](strace_study_sheet.md) | System call tracing concepts, common options, file and network errors, hung process triage, Kubernetes/container usage, output reading, and safety notes. |
 
@@ -40,6 +41,7 @@ Infrastructure as code      -> terraform_opentofu_quick_reference.md
 CI/CD pipelines             -> github_gitlab_ci_quick_reference.md
 Kubernetes administration   -> kubernetes_quick_reference.md
 Kubernetes definitions      -> kubernetes_definitions_study_sheet.md
+Deployment strategies       -> kubernetes_deployment_strategies_study_guide.md
 Exam speed and aliases      -> cka_ckad_exam_speed_sheet.md
 Fast kubectl generation     -> kubectl_imperative_quick_reference.md
 Kubernetes YAML examples    -> kubernetes_manifests_quick_reference.md
