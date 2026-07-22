@@ -29,6 +29,7 @@ A collection of short command-line quick references and study guides for common 
 | [Helm Charts Study Guide](helm_charts_study_guide.md) | Chart structure, values, templates, helper functions, dependencies, debugging, install and rollback practice, and chart authoring scenarios. |
 | [Kubernetes Definitions Study Sheet](kubernetes_definitions_study_sheet.md) | Diagram-backed study tables for control plane, node components, workloads, networking, storage, security, scheduling, probes, Helm, Kustomize, CRDs, and operators. |
 | [Kubernetes Deployment Strategies Study Guide](kubernetes_deployment_strategies_study_guide.md) | Rolling update, recreate, blue/green, canary, A/B, shadow traffic, StatefulSet and DaemonSet updates, with YAML examples and practice scenarios. |
+| [Kubernetes DNS and Ingress Study Guide](kubernetes_dns_ingress_study_guide.md) | CoreDNS, Service DNS names, EndpointSlices, headless and ExternalName Services, Ingress, IngressClass, TLS, troubleshooting, and practice scenarios. |
 | [Kubernetes Storage Study Guide](kubernetes_storage_study_guide.md) | Storage options, PVs, PVCs, StorageClasses, access modes, reclaim policies, StatefulSet storage, troubleshooting, and hands-on practice scenarios. |
 | [Kustomize Study Guide](kustomize_study_guide.md) | Bases, overlays, patches, image transforms, generators, components, debugging, Helm comparisons, and hands-on overlay scenarios. |
 | [Minikube CKA Practice](minikube_cka_quick_reference.md) | Local two-node Minikube practice setup for CKA/CKAD labs, addons, node access, service access, and rebuild commands. |
@@ -49,6 +50,7 @@ Exam speed and aliases      -> cka_ckad_exam_speed_sheet.md
 Fast kubectl generation     -> kubectl_imperative_quick_reference.md
 Kubernetes YAML examples    -> kubernetes_manifests_quick_reference.md
 Kubernetes troubleshooting  -> kubernetes_troubleshooting_quick_reference.md
+Kubernetes DNS and ingress  -> kubernetes_dns_ingress_study_guide.md
 Kubernetes storage          -> kubernetes_storage_study_guide.md
 Kubernetes packaging        -> helm_quick_reference.md
 Helm chart authoring        -> helm_charts_study_guide.md
