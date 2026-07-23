@@ -30,6 +30,7 @@ A collection of short command-line quick references and study guides for common 
 | [Kubernetes Definitions Study Sheet](kubernetes_definitions_study_sheet.md) | Diagram-backed study tables for control plane, node components, workloads, networking, storage, security, scheduling, probes, Helm, Kustomize, CRDs, and operators. |
 | [Kubernetes Deployment Strategies Study Guide](kubernetes_deployment_strategies_study_guide.md) | Rolling update, recreate, blue/green, canary, A/B, shadow traffic, StatefulSet and DaemonSet updates, with YAML examples and practice scenarios. |
 | [Kubernetes DNS and Ingress Study Guide](kubernetes_dns_ingress_study_guide.md) | CoreDNS, Service DNS names, EndpointSlices, headless and ExternalName Services, Ingress, IngressClass, TLS, troubleshooting, and practice scenarios. |
+| [Kubernetes Ingress Gateway Scenarios](kubernetes_ingress_gateway_scenarios.md) | Gateway API, HTTPRoute, Istio ingress gateways, host and path routing, TLS, canary routing, cross-namespace routing, and troubleshooting scenarios. |
 | [Kubernetes Labels and Selectors Study Guide](kubernetes_labels_selectors_study_guide.md) | Labels, selectors, annotations, Services, Deployments, NetworkPolicies, node scheduling, Kustomize label handling, and hands-on practice scenarios. |
 | [Kubernetes Storage Study Guide](kubernetes_storage_study_guide.md) | Storage options, PVs, PVCs, StorageClasses, access modes, reclaim policies, StatefulSet storage, troubleshooting, and hands-on practice scenarios. |
 | [Kustomize Study Guide](kustomize_study_guide.md) | Bases, overlays, patches, image transforms, generators, components, debugging, Helm comparisons, and hands-on overlay scenarios. |
@@ -52,6 +53,7 @@ Fast kubectl generation     -> kubectl_imperative_quick_reference.md
 Kubernetes YAML examples    -> kubernetes_manifests_quick_reference.md
 Kubernetes troubleshooting  -> kubernetes_troubleshooting_quick_reference.md
 Kubernetes DNS and ingress  -> kubernetes_dns_ingress_study_guide.md
+Ingress gateway scenarios   -> kubernetes_ingress_gateway_scenarios.md
 Kubernetes labels/selectors -> kubernetes_labels_selectors_study_guide.md
 Kubernetes storage          -> kubernetes_storage_study_guide.md
 Kubernetes packaging        -> helm_quick_reference.md
