@@ -32,6 +32,7 @@ A collection of short command-line quick references and study guides for common 
 | [Kubernetes DNS and Ingress Study Guide](kubernetes_dns_ingress_study_guide.md) | CoreDNS, Service DNS names, EndpointSlices, headless and ExternalName Services, Ingress, IngressClass, TLS, troubleshooting, and practice scenarios. |
 | [Kubernetes Ingress Gateway Scenarios](kubernetes_ingress_gateway_scenarios.md) | Gateway API, HTTPRoute, Istio ingress gateways, host and path routing, TLS, canary routing, cross-namespace routing, and troubleshooting scenarios. |
 | [Kubernetes Labels and Selectors Study Guide](kubernetes_labels_selectors_study_guide.md) | Labels, selectors, annotations, Services, Deployments, NetworkPolicies, node scheduling, Kustomize label handling, and hands-on practice scenarios. |
+| [Kubernetes Scheduling, Taints, Tolerations, and Affinity Study Guide](kubernetes_scheduling_taints_affinity_study_guide.md) | Scheduler decisions, taints, tolerations, node selectors, node affinity, pod affinity, anti-affinity, topology spread, Pending Pod debugging, and practice scenarios. |
 | [Kubernetes Storage Study Guide](kubernetes_storage_study_guide.md) | Storage options, PVs, PVCs, StorageClasses, access modes, reclaim policies, StatefulSet storage, troubleshooting, and hands-on practice scenarios. |
 | [Kustomize Study Guide](kustomize_study_guide.md) | Bases, overlays, patches, image transforms, generators, components, debugging, Helm comparisons, and hands-on overlay scenarios. |
 | [Minikube CKA Practice](minikube_cka_quick_reference.md) | Local two-node Minikube practice setup for CKA/CKAD labs, addons, node access, service access, and rebuild commands. |
@@ -55,6 +56,7 @@ Kubernetes troubleshooting  -> kubernetes_troubleshooting_quick_reference.md
 Kubernetes DNS and ingress  -> kubernetes_dns_ingress_study_guide.md
 Ingress gateway scenarios   -> kubernetes_ingress_gateway_scenarios.md
 Kubernetes labels/selectors -> kubernetes_labels_selectors_study_guide.md
+Kubernetes scheduling       -> kubernetes_scheduling_taints_affinity_study_guide.md
 Kubernetes storage          -> kubernetes_storage_study_guide.md
 Kubernetes packaging        -> helm_quick_reference.md
 Helm chart authoring        -> helm_charts_study_guide.md
